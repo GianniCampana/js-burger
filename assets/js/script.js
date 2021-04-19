@@ -20,7 +20,8 @@ button.addEventListener('click', function(){
       if(nomeInserito.lenght === 0){
           alert("inserisci il nome");
       }else{ 
-          
+        
+    
           /* somma elementi */
           var priceIngredient = 0;
           for(var i=0; i< ingredients.length; i++){
