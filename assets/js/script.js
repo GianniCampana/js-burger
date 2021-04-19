@@ -8,9 +8,8 @@ var coupon = document.getElementById('coupon')
 var defaultPrice = 50;
 var coupons = ['sconto2021', 'sconto-bool'];
 var discount = 0.2;
+
 writePrice(defaultPrice, priceEl);
-
-
 
 
 button.addEventListener('click', function(){
@@ -44,9 +43,6 @@ button.addEventListener('click', function(){
    
     
 });
-
-
-
 
 
 function writePrice(value, target){
