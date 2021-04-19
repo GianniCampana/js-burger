@@ -1,8 +1,8 @@
-var priceEl = document.getElementById('price')
-var button = document.getElementById('button')
-var nameUser = document.getElementById('name')
+var priceEl = document.getElementById('price');
+var button = document.getElementById('button');
+var nameUser = document.getElementById('name');
 var ingredients = document.getElementsByClassName("ingredient-checkbox");
-var coupon = document.getElementById('coupon')
+var coupon = document.getElementById('coupon');
 
 
 var defaultPrice = 50;
