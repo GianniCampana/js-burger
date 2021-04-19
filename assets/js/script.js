@@ -17,7 +17,7 @@ button.addEventListener('click', function(){
     /* controllo nome */
     var nomeInserito = nameUser.value.trim();
 
-      if(nomeInserito.value.lenght === 0){
+      if(nomeInserito.length === 0){
           alert("inserisci il nome");
       }else{ 
           /* somma elementi */
